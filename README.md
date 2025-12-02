@@ -70,6 +70,13 @@ npm start
 
 Your sales dashboard will open automatically at: http://localhost:3000
 
+## Note on Data Source: By default, the application is deployed in Demo Mode (USE_MOCK_DATA = true).
+
+I implemented this fallback feature because the provided backend API does not have Cross-Origin Resource Sharing (CORS) configured for my Vercel domain. To ensure you can review the UI/UX, Sorting, Filtering, and Charting features without network errors, the app currently generates realistic mock data locally.
+
+To connect to the real API, simply toggle const USE_MOCK_DATA = false in App.jsx
+
+
 
 ###📘 Create React App Documentation
 This project was bootstrapped with Create React App.
