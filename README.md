@@ -12,6 +12,10 @@ A modern, responsive **Sales Dashboard** application built with **React.js** and
 
 ---
 
+## Live Demo  
+🔗 https://sales-blond-ten.vercel.app/
+
+
 ## 🛠️ How to Run This Project
 
 Follow these steps to set up and run the project on your local machine.
